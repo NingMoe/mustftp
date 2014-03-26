@@ -1,0 +1,33 @@
+{
+  "name": "mustftp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^3.4.8",
+    "ejs": "*",
+    "logfmt": "^1.1.1",
+    "mongoose": "^3.8.8"
+  },
+  "description": "A little tool for querying the FTP username and password of Macau University of Science and Technology's teachers'.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lipsChan/mustftp.git"
+  },
+  "keywords": [
+    "must",
+    "ftp"
+  ],
+  "author": "LipsChan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lipsChan/mustftp/issues"
+  },
+  "homepage": "https://github.com/lipsChan/mustftp",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
